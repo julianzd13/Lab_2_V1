@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Lab_2_V1</string>
+    <string name="log_email">Email</string>
+    <string name="log_pass">Password</string>
+    <string name="log">Log In</string>
+    <string name="sign">Sign Up</string>
+    <string name="user_name">User Name</string>
+    <string name="user_phon">Phone</string>
+    <string name="sign_Up_rpass">Repeat Password</string>
+    <string name="male">Male</string>
+    <string name="gender">Gender</string>
+    <string name="female">Female</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="movies">Movies</string>
+    <string name="gym">GYM</string>
+    <string name="read">To Read</string>
+    <string name="shopping">Shopping</string>
+    <string name="dateofbirth">Date of Birth</string>
+    <string name="cities">City of Residence</string>
+    <string name="save">SAVE</string>
+
+    <string name="error_login">Some fields are Empty</string>
+    <string name="error_pass">Check your Pass</string>
+    <string name="error_pass1">Pass min six characters</string>
+    <string name="ok_sign">Registration OK</string>
+    <string name="close_sesion">Close sesion</string>
+
+    <string-array name="city_list">
+        <item>Select City</item>
+        <item>Bogota</item>
+        <item>Cartagena</item>
+        <item>Manizales</item>
+        <item>Medellin</item>
+        <item>Pasto</item>
+    </string-array>
+
+
+</resources>

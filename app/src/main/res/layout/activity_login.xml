@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/lawngreen"
+    android:padding="15dp"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/deportesicon"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:ems="10"
+        android:hint="@string/log_email"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:id="@+id/et_log_email"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:ems="10"
+        android:hint="@string/log_pass"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:background="@color/white"
+        android:layout_marginTop="13dp"
+        android:drawableLeft="@android:drawable/ic_secure"
+        android:drawablePadding="8dp"
+        android:id="@+id/et_log_pass"/>
+
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/darkcyan"
+        android:layout_marginTop="16dp"
+        android:text="@string/log"
+        android:id="@+id/bt_login"/>
+
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:background="@color/darkcyan"
+        android:text="@string/sign"
+        android:id="@+id/bt_sign1"/>
+
+
+
+</LinearLayout>
+
